@@ -244,29 +244,35 @@ button {
 .top-bar {
   background: $verde_escuro;
   text-align: center;
-  padding: 8px;
+  padding: 10px;
 
   @media (max-width: 1200px) {
     display: none;
   }
 
-  svg {
-    width: 14px;
-    fill: $branco;
-    margin: 0 0 0 1%;
+  ul {
+    list-style: none;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      padding: 0% 5px;
+    }
+  }
+
+  i {
+    color: #fff;
+    font-size: 18px;
+    padding: 0% 2px 0% 0%;
   }
 
   h3 {
-    width: 12vw;
-    display: inline-block;
     color: $branco;
     font-weight: $regular;
     font-size: 14px;
   }
 
   p {
-    width: 11vw;
-    display: inline-block;
     color: $laranja;
     font-size: 15px;
     font-weight: $regular;
@@ -647,19 +653,23 @@ button {
   background-color: transparent;
   color: #3b454f;
   cursor: pointer;
-  padding: 18px;
+  padding: 18px 18px 0 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
-  margin: 4% 0 0 0;
+  margin: 0;
   font-weight: $regular;
   transition: 0.2s;
 
   @media (max-width: 1200px) {
     font-size: 12px;
   }
+}
+
+.active {
+  padding: 18px 18px 18px 18px!important;
 }
 
 .active,
@@ -680,17 +690,19 @@ button {
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0px 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
-  border-bottom: 1px solid #ccd1d6 !important;
+  font-size: 14px;
+  color: #3b454f;
+  transition: 0.4s;
+}
 
-  p {
-    font-size: 14px;
-    color: #3b454f;
-    padding: 0% 0% 3% 0%;
-  }
+.box-accordion {
+  border-bottom: 1px solid #ccd1d6 !important;
+  margin: 0 0 4% 0;
+  padding: 0 0 18px 0;
 }
 
 // CONTRATAR

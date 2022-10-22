@@ -8,6 +8,9 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
+  <!--Favicon-->
+  <script src="https://kit.fontawesome.com/047791a0e8.js" crossorigin="anonymous"></script>
+
   <!--CSS-->
   <link href="style/css/main.css" rel="stylesheet">
 
@@ -45,8 +48,10 @@
 </body>
 
 <!--JS-->
+<script src="js/api.js"></script>
 <script src="js/accordion.js"></script>
 <script src="js/sidenav.js"></script>
 <script src="js/dropdown.js"></script>
+
 
 </html>

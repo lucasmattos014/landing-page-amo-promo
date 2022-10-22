@@ -10,7 +10,8 @@
 
                 <h2 class="fadeInDown responsive">Por que ter um seguro de vida?</h2>
 
-                <?php include('api/duvidas_api.php'); ?>
+                <div id="accodion_table"></div>
+
                 <br><br>
                 <a href="https://www.segurospromo.com.br/seguro-de-vida/cotacao/" target="_blank">
                     <button class="fadeInUp responsive" id="primary_button">Faça sua cotação</button>
